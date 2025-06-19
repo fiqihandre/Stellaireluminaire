@@ -28,16 +28,15 @@ export default function Header() {
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-center px-6">
         {/* Logo Section */}
         <div className="text-center md:text-left z-50">
-          <h1 className="text-4xl font-bold tracking-widest select-none">CULCRATE.Z</h1>
-          <p className="text-sm mt-1">Define Your Own Style</p>
+          <h3 className="text-2xl font-bold tracking-widest select-none">CULCRATE.Z</h3>
         </div>
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex space-x-8 items-center text-headerText mt-4 md:mt-0 z-50">
-          <Link href="#home" className="hover:text-headerLinkHover font-semibold">Home</Link>
-          <Link href="#shop" className="hover:text-headerLinkHover font-semibold">Shop</Link>
-          <Link href="#about" className="hover:text-headerLinkHover font-semibold">About</Link>
-          <Link href="#contact" className="hover:text-headerLinkHover font-semibold">Contact</Link>
+          <Link href="/" className="hover:text-headerLinkHover font-semibold">Home</Link>
+          <Link href="/products" className="hover:text-headerLinkHover font-semibold">Shop</Link>
+          <Link href="/about" className="hover:text-headerLinkHover font-semibold">About</Link>
+          <Link href="/contact" className="hover:text-headerLinkHover font-semibold">Contact</Link>
         </nav>
 
         {/* Mobile Hamburger Menu */}
@@ -63,10 +62,10 @@ export default function Header() {
       {/* Mobile Menu */}
       <div className={`md:hidden ${isMenuOpen ? 'block' : 'hidden'} bg-headerBg px-6 py-4`}>
         <nav className="space-y-4 text-headerText">
-          <Link href="#home" className="block hover:text-headerLinkHover font-semibold">Home</Link>
-          <Link href="#shop" className="block hover:text-headerLinkHover font-semibold">Shop</Link>
-          <Link href="#about" className="block hover:text-headerLinkHover font-semibold">About</Link>
-          <Link href="#contact" className="block hover:text-headerLinkHover font-semibold">Contact</Link>
+          <Link href="/" className="block hover:text-headerLinkHover font-semibold">Home</Link>
+          <Link href="/products" className="block hover:text-headerLinkHover font-semibold">Shop</Link>
+          <Link href="/about" className="block hover:text-headerLinkHover font-semibold">About</Link>
+          <Link href="/contact" className="block hover:text-headerLinkHover font-semibold">Contact</Link>
         </nav>
       </div>
     </header>
