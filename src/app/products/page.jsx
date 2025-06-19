@@ -19,9 +19,9 @@ export default function ProductsPage() {
   return (
     <>
       <Header />
-      <main className="min-h-screen bg-gray-100 pt-24 pb-12">
+      <main className="min-h-screen bg-background pt-24 pb-12">
         <div className="container mx-auto px-4">
-          <h1 className="text-3xl font-bold mb-8 text-center text-black">Our Products</h1>
+          <h1 className="text-3xl font-bold mb-8 text-center text-white">Our Products</h1>
           
           {/* Category Filter */}
           <div className="flex flex-wrap gap-2 justify-center mb-8">
@@ -31,8 +31,8 @@ export default function ProductsPage() {
                 onClick={() => handleCategoryClick(category)}
                 className={`px-4 py-2 rounded-full transition-colors ${
                   activeCategory === category
-                    ? 'bg-black text-white'
-                    : 'bg-gray-100 text-gray-800 hover:bg-gray-200'
+                    ? 'bg-gray-200 text-gray-800'
+                    : 'bg-backbunner text-white hover:bg-buttonHoverBg'
                 }`}
               >
                 {category}
