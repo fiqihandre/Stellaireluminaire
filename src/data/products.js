@@ -1,13 +1,13 @@
 export const products = [
   {
     id: 1,
-    name: 'Hoodie Dope - Brixite Original',
+    name: 'Culcrate.Z - Original',
     category: 'Hoodie',
-    price: 299000,
-    imageThumbnail: '/product/org1.png',
+    price: 678000,
+    imageThumbnail: '/hoodie1/hoodie1.jpg',
     images: [
-      '/product/org1.png',
-      '/product/org3.png'
+      '/hoodie1/122.jpg',
+      '/hoodie1/123.jpg'
     ],
     description: [
       'Trendy hoodie with comfortable fit',
@@ -19,18 +19,17 @@ export const products = [
       '- Kangaroo pocket',
       '- Ribbed cuffs and hem'
     ],
-    colors: ['Black', 'white'],
     sizes: ['M', 'L'],
     link: 'https://wa.me/6287875150524'
   },
   {
     id: 2,
-    name: 'Sweater Dope - Brixite Original',
-    category: 'Sweater',
-    price: 280000,
-    imageThumbnail: '/product/org2.png',
+    name: 'clz 400',
+    category: 'Hoodie',
+    price: 895000,
+    imageThumbnail: '/hoodie2/hoodie2.jpg',
     images: [
-      '/product/org2.png'
+      '/hoodie2/hoodie2.jpg'
     ],
     description: [
       'Trendy hoodie with comfortable fit',
@@ -42,7 +41,6 @@ export const products = [
       '- Kangaroo pocket',
       '- Ribbed cuffs and hem'
     ],
-    colors: ['Black', 'white'],
     sizes: ['M', 'L'],
     link: 'https://wa.me/6287875150524'
   },
