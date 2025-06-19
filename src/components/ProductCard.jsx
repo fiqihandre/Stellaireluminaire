@@ -24,7 +24,7 @@ export default function ProductCard({ product }) {
         <p className="text-cardTextPrimary font-bold">Rp {product.price.toLocaleString()}</p>
         <Link 
           href={`/products/${product.id}`}
-          className="mt-2 inline-block bg-cardButtonBg text-cardButtonText font-bold py-3 px-6 rounded-lg hover:bg-cardButtonHoverBg shadow-lg transition ease-in-out duration-300 "
+          className="mt-5 inline-block bg-cardButtonBg text-cardButtonText font-bold py-3 px-6 rounded-xl hover:bg-cardButtonHoverBg shadow-lg transition ease-in-out duration-300 "
         >
           View Details
         </Link>
