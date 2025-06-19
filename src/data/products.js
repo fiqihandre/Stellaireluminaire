@@ -20,7 +20,7 @@ export const products = [
       '- Ribbed cuffs and hem'
     ],
     sizes: ['M', 'L'],
-    link: 'https://wa.me/6287875150524'
+    link: 'https://wa.me/6285922065696'
   },
   {
     id: 2,
@@ -42,7 +42,7 @@ export const products = [
       '- Ribbed cuffs and hem'
     ],
     sizes: ['M', 'L'],
-    link: 'https://wa.me/6287875150524'
+    link: 'https://wa.me/6285922065696'
   },
 
   // Add more products as needed
