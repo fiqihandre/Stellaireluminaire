@@ -8,10 +8,10 @@ export default function Products() {
         <div className="flex flex-col md:flex-row justify-center gap-4 px-4 sm:px-8 md:px-12">
           {/* Product Cards */}
           {[
-            { name: 'HOODIE DOPE', image: '/product/org1.png', price: '299.000' },
-            { name: 'SWEEATER DOPE', image: '/product/org2.png', price: '280.000' },
+            { name: 'Culcrate.Z - Original', image: '/hoodie1/hoodie1.jpg', price: '299.000' },
+            { name: 'clz 400', image: '/hoodie2/hoodie2.jpg', price: '280.000' },
           ].map((product, index) => (
-            <div key={index} className="card bg-white shadow-lg rounded-lg overflow-hidden w-72 mx-auto">
+            <div key={index} className="card bg-[#3c3c3c] shadow-lg rounded-lg overflow-hidden w-72 mx-auto">
               <Image
                 src={product.image}
                 alt={product.name}
@@ -21,8 +21,8 @@ export default function Products() {
                 draggable="false"
               />
               <div className="p-4">
-                <h4 className="text-lg font-bold text-black">{product.name}</h4>
-                <p className="text-sm text-gray-600">Rp {product.price}</p>
+                <h4 className="text-lg font-bold text-gray-100">{product.name}</h4>
+                <p className="text-sm text-gray-200">Rp {product.price}</p>
               </div>
             </div>
           ))}
@@ -30,7 +30,7 @@ export default function Products() {
         
         {/* See More Button */}
         <div className="mt-8 text-center">
-          <a href="/products" className="bg-[#FFD700] text-black font-bold py-3 px-6 rounded-lg hover:bg-[#FFA500] shadow-lg transition ease-in-out duration-300">
+          <a href="/products" className="bg-buttonBg textWhite font-bold py-3 px-6 rounded-lg hover:bg-buttonHoverBg shadow-lg transition ease-in-out duration-300">
             See More
           </a>
         </div>
