@@ -57,11 +57,12 @@
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
-
+    --backbunner: #2e2e2e;
+    --backbunnser: #d8d8d8;
     /* Dark mode overrides */
     --section-bg: #3c3c3c;
-    --button-bg: #FFD700;
-    --button-hover-bg: #FFA500;
+    --button-bg: #0f0f0f;
+    --button-hover-bg: #1c1c1c;
     --text-primary: #ffffff;
     --text-secondary: #9CA3AF; /* Tailwind gray-400 */
     --text-white: #ffffff;
@@ -88,7 +89,7 @@
     --footer-button-hover-bg: #f59e0b;
 
     /* Header component colors */
-    --header-bg: #f3f4f6;
+    --header-bg: #0f0f0f;
     --header-text: #ffffff;
     --header-link-hover: #0085FF;
     --header-button-bg: #0085FF;
@@ -96,12 +97,12 @@
     --header-button-hover-bg: #005FCC;
 
     /* ProductCard component colors */
-    --card-bg: #ffffff;
-    --card-text-primary: #000000;
-    --card-text-secondary: #9CA3AF; /* gray-400 */
+    --card-bg: #2e2e2e;
+    --card-text-primary: #ffffff;
+    --card-text-secondary: #d1d1d1; /* gray-400 */
     --card-button-bg: #000000;
     --card-button-text: #ffffff;
-    --card-button-hover-bg: #4B5563; /* gray-600 */
+    --card-button-hover-bg: #212121; /* gray-600 */
   }
 }
 
