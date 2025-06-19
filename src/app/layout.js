@@ -3,16 +3,14 @@ import Script from 'next/script';
 
 export const metadata = {
   title: 'Culcratez',
-  description: 'Brixite Society, is all about bringing bold, stylish streetwear that speaks to your authentic vibe. We\'re here to make your everyday look stand out, with comfy fits and eye-catching designs. Join us, make a statement, and let\'s keep it cool and fresh!',
+  description: 'DECODED FOR THE STREETS',
   openGraph: {
     title: 'Culcratez',
-    description: 'Brixite Society, is all about bringing bold, stylish streetwear that speaks to your authentic vibe. We\'re here to make your everyday look stand out, with comfy fits and eye-catching designs. Join us, make a statement, and let\'s keep it cool and fresh!',
-    url: 'https://brixite.com',
+    description: 'DECODED FOR THE STREETS',
+    url: 'https://culcratez.vercel.app',
     images: [
       {
-        url: '/image.png',
-        width: 1200,
-        height: 630,
+        url: '/logo.png',
       },
     ],
     locale: 'en_US',
@@ -20,9 +18,9 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Brixite',
-    description: 'Brixite Society, is all about bringing bold, stylish streetwear that speaks to your authentic vibe. We\'re here to make your everyday look stand out, with comfy fits and eye-catching designs. Join us, make a statement, and let\'s keep it cool and fresh!',
-    images: ['./image.png'],
+    title: 'Culcratez',
+    description: 'DECODED FOR THE STREETS',
+    images: ['./logo.png'],
   },
 };
 
