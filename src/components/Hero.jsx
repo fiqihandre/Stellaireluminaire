@@ -6,7 +6,7 @@ export default function Hero() {
     >
       <div className="absolute top-0 left-0 right-0 h-16 bg-headerBg z-10" />
       <h2 className="z-20 text-6xl md:text-7xl font-extrabold mb-6 tracking-wide max-w-4xl text-center">
-        Streetwear Meets Vision
+      Lighting the way with stellaireluminaire
       </h2>
       <p className="z-20 text-xl md:text-2xl text-textSecondary max-w-3xl text-center">
         Explore bold, edgy, and minimal fashion pieces designed for the now.
