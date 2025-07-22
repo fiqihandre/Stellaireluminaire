@@ -2,12 +2,12 @@ import './globals.css';
 import Script from 'next/script';
 
 export const metadata = {
-  title: 'Culcratez',
-  description: 'DECODED FOR THE STREETS',
+  title: 'Stellaire Luminaire',
+  description: 'Lighting the way with stellaireluminaire',
   openGraph: {
-    title: 'Culcratez',
-    description: 'DECODED FOR THE STREETS',
-    url: 'https://culcratez.vercel.app',
+    title: 'Stellaire Luminaire',
+    description: 'Lighting the way with stellaireluminaire',
+    url: 'https://stellaire.netlify.app',
     images: [
       {
         url: '/logo.png',
@@ -18,8 +18,8 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Culcratez',
-    description: 'DECODED FOR THE STREETS',
+    title: 'Stellaire Luminaire',
+    description: 'Lighting the way with stellaireluminaire',
     images: ['./logo.png'],
   },
 };
