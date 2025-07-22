@@ -8,8 +8,7 @@ export default function Products() {
         <div className="flex flex-col md:flex-row justify-center gap-4 px-4 sm:px-8 md:px-12">
           {/* Product Cards */}
           {[
-            { name: 'Culcrate.Z - Original', image: '/hoodie1/hoodie1.jpg', price: '678.000' },
-            { name: 'clz 400', image: '/hoodie2/hoodie2.jpg', price: '895.000' },
+            { name: 'Truckher Hat Brown Stellaire Luminaire', image: '/topi/topi1.webp', price: '100.000' },
           ].map((product, index) => (
             <div key={index} className="card bg-[#3c3c3c] shadow-lg rounded-lg overflow-hidden w-72 mx-auto">
               <Image
