@@ -44,6 +44,29 @@ export const products = [
     sizes: ['M', 'L'],
     link: 'https://wa.me/6285922065696'
   },
+  {
+    id: 3,
+    name: 'Truckher Hat Brown Stellaire Luminaire',
+    category: 'Hat',
+    price: 100000,
+    imageThumbnail: '/topi/topi1.webp',
+    images: [
+      '/topi/topi1.webp',
+      '/topi/topi2.webp',
+      '/topi/topi3.webp'
+    ],
+    description: [
+      'Trendy hoodie with comfortable fit',
+      'Premium quality material with comfortable cotton blend',
+      'Available in multiple colors: black, navy, gray',
+      '\n',
+      'Features:',
+      '- Adjustable drawstrings',
+      '- Kangaroo pocket',
+      '- Ribbed cuffs and hem'
+    ],
+    link: 'https://wa.me/6285922065696'
+  },
 
   // Add more products as needed
 ];
