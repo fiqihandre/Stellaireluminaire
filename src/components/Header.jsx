@@ -28,7 +28,7 @@ export default function Header() {
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-center px-6">
         {/* Logo Section */}
         <div className="text-center md:text-left z-50">
-          <h3 className="text-2xl font-bold tracking-widest select-none">CULCRATE.Z</h3>
+          <h3 className="text-2xl font-bold tracking-widest select-none">Stellaire Luminaire</h3>
         </div>
 
         {/* Desktop Navigation */}
